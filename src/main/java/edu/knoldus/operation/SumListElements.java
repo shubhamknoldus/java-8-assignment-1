@@ -11,6 +11,13 @@ public class SumListElements {
         }
         return addListElement(list1, list2);
     }
+
+    /**
+     *
+     * @param largerList containing the larger list
+     * @param smallerList containing the smaller list
+     * @return a list containing the sum of corresponding elements
+     */
     private ArrayList addListElement(ArrayList<Integer> largerList, ArrayList<Integer> smallerList){
         ArrayList<Integer> result = new ArrayList<>();
         for(int i = 0; i < smallerList.size(); i++)

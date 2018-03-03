@@ -6,7 +6,9 @@ import java.util.Random;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
 
-
+/**
+ *
+ */
 public class PrintPrimeUsingLambda {
     public List<Integer> initialList = new ArrayList<>();
     private Predicate<Integer> isPrimePredicate = i -> {
@@ -27,6 +29,11 @@ public class PrintPrimeUsingLambda {
         }
     }
 
+    /**
+     *
+     * @return a list of Integers filtered using stream on
+     * thr basis of predicate
+     */
     public List<Integer> printPrimeFromList() {
        return initialList.stream()
                 .filter(isPrimePredicate)

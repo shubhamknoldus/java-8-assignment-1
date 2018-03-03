@@ -12,6 +12,11 @@ public class ReadFileContents {
     public ReadFileContents(){
         initialMap = new HashMap<>();
     }
+
+    /**
+     *
+     * @return a map of Key Word, Value Count in a file
+     */
      public Map<String, Integer> returnWordCount() {
          FileReader fr= null;
          try {

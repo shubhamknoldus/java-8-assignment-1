@@ -3,6 +3,10 @@ package edu.knoldus.operation;
 
 import java.util.List;
 
+/**
+ * class movie
+ */
+
 public class Movie {
     public String name;
     public Integer year;
