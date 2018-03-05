@@ -20,7 +20,7 @@ public class ReadFileContents {
      public Map<String, Integer> returnWordCount() {
          FileReader fr= null;
          try {
-             fr = new FileReader("/home/knoldus/Desktop/fileJava.txt");
+             fr = new FileReader("/home/knoldus/Desktop/Assignments/java-8-assignment-1/fileJava.txt");
              BufferedReader br=new BufferedReader(fr);
              String readLine;
              while((readLine = br.readLine()) != null){
